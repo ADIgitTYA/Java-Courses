@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WordPlay
+comment0.text=\r\n\ Write\ a\ description\ of\ WordPlay\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=ch
+comment1.target=boolean\ isVowel(char)
+comment1.text=\r\n\ Write\ a\ method\ isVowel\ that\ has\ one\ Char\ parameter\ named\ ch.\r\n\ \ \ \ \ \ \ This\ method\ returns\ true\ if\ ch\ is\ a\ vowel\ (one\ of\ 'a',\ 'e',\ 'i',\ 'o',\ or\ 'u'\ or\ the\ uppercase\ versions)\ \r\n\ \ \ \ \ \ \ and\ false\ otherwise.\r\n\ \ \ \ \ \ \ You\ should\ write\ a\ tester\ method\ to\ see\ if\ this\ method\ works\ correctly.\ \r\n\ \ \ \ \ \ \ For\ example,\ isVowel(\u2018F\u2019)\ should\ return\ false,\ and\ isVowel(\u2018a\u2019)\ should\ return\ true.\r\n
+comment2.params=phrase\ ch
+comment2.target=java.lang.String\ replaceVowels(java.lang.String,\ char)
+comment2.text=\r\n\ Write\ a\ method\ replaceVowels\ that\ has\ two\ parameters,\ a\ String\ named\ phrase\ and\ a\ Char\ named\ ch.\r\n\ \ \ \ \ \ \ This\ method\ should\ return\ a\ String\ that\ is\ the\ string\ phrase\ with\ all\ the\ vowels\ (uppercase\ or\ lowercase)\ replaced\ by\ ch.\r\n\ \ \ \ \ \ \ For\ example,\ the\ call\ replaceVowels(\u201CHello\ World\u201D,\ \u2018*\u2019)\ returns\ the\ string\ \u201CH*ll*\ W*rld\u201D.\r\n\ \ \ \ \ \ \ Be\ sure\ to\ call\ the\ method\ isVowel\ that\ you\ wrote\ and\ also\ test\ this\ method.\r\n
+comment3.params=phrase\ ch
+comment3.target=java.lang.String\ emphasize(java.lang.String,\ char)
+comment3.text=\r\n\ Write\ a\ method\ emphasize\ with\ two\ parameters,\ a\ String\ named\ phrase\ and\ a\ character\ named\ ch.\r\n\ \ \ \ \ \ \ This\ method\ should\ return\ a\ String\ that\ is\ the\ string\ phrase\ but\ with\ the\ Char\ ch\ (upper-\ or\ lowercase)\ replaced\ by\u2018*\u2019\ \\\r\n\ \ \ \ \ \ \ if\ it\ is\ in\ an\ odd\ number\ location\ in\ the\ string\ (e.g.\ the\ first\ character\ has\ an\ odd\ number\ location\ but\ an\ even\ index,\r\n\ \ \ \ \ \ \ it\ is\ at\ index\ 0),\ or\u2018+\u2019\ if\ it\ is\ in\ an\ even\ number\ location\ in\ the\ string\ (e.g.\ the\ second\ character\ has\ an\ even\ number\ location\ but\ an\ odd\ index,\ it\ is\ at\ index\ 1).\r\n\ \ \ \ \ \ \ For\ example,\ the\ call\ emphasize(\u201Cdna\ ctgaaactga\u201D,\ \u2018a\u2019)\ would\ return\ the\ string\ \u201Cdn*\ ctg+*+ctg+\u201D,\ and\ the\ call\r\n\ \ \ \ \ \ \ emphasize(\u201CMary\ Bella\ Abracadabra\u201D,\ \u2018a\u2019)\ would\ return\ the\ string\ \u201CM+ry\ Bell+\ +br*c*d*br+\u201D.\r\n\ \ \ \ \ \ \ Be\ sure\ to\ test\ this\ method.\r\n
+numComments=4

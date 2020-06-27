@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=CaeserBreaker
+comment0.text=\r\n\ Write\ a\ description\ of\ TwoKeysDencrypt\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=message
+comment1.target=int[]\ countLetters(java.lang.String)
+comment1.text=\r\n\ Complete\ the\ decryption\ method\ shown\ in\ the\ lesson\ by\ creating\ a\ CaesarBreaker\ class\ with\ the\ methods\ countLetters,\r\n\ \ \ \ \ \ \ maxIndex,\ and\ decrypt.\ Recall\ that\ the\ decrypt\ method\ creates\ a\ CaesarCipher\ object\ in\ order\ to\ use\ the\ encrypt\ method\ \r\n\ \ \ \ \ \ \ you\ wrote\ for\ the\ last\ lesson.\ Make\ sure\ that\ your\ CaesarCipher\ class\ is\ in\ the\ same\ folder\ as\ CaesarBreaker\!\r\n\ \ \ \ \ \ \ You\ may\ want\ to\ use\ the\ following\ code\ as\ part\ of\ your\ decrypt\ method.\r\n\ \ \ \ \ \ \ \r\n\ CaesarCipher\ cc\ \=\ new\ CaesarCipher();\r\n\ String\ message\ \=\ cc.encrypt(encrypted,\ 26\ -\ key);\ \r\n
+comment2.params=counters
+comment2.target=int\ maxIndex(int[])
+comment3.params=encrypted
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+comment4.params=
+comment4.target=void\ testDecrypt()
+comment5.params=message\ start
+comment5.target=java.lang.String\ halfOfString(java.lang.String,\ int)
+comment6.params=
+comment6.target=void\ testHalfOfString()
+comment7.params=s
+comment7.target=int\ getKey(java.lang.String)
+comment8.params=encrypted
+comment8.target=java.lang.String\ decryptTwoKeys(java.lang.String)
+comment8.text=\r\n\ Write\ the\ method\ decryptTwoKeys\ in\ the\ CaesarBreaker\ class\ that\ has\ one\ parameter,\ a\ String\ parameter\ named\ encrypted\r\n\ \ \ \ \ \ that\ represents\ a\ String\ that\ was\ encrypted\ with\ the\ two\ key\ algorithm\ discussed\ in\ the\ previous\ lesson.\ \r\n\ \ \ \ \ \ This\ method\ attempts\ to\ determine\ the\ two\ keys\ used\ to\ encrypt\ the\ message,\ prints\ the\ two\ keys,\ and\ then\ returns\r\n\ \ \ \ \ \ the\ decrypted\ String\ with\ those\ two\ keys.\ More\ specifically,\ this\ method\ should\:\r\n\ \ \ \ \ \ \r\n\ \ \ \ \ \ -\ Calculate\ a\ String\ of\ every\ other\ character\ starting\ with\ the\ first\ character\ of\ the\ encrypted\ String\ by\ calling\ \r\n\ \ \ \ \ \ \ \ halfOfString.\r\n\r\n\ \ \ \ \ \ -\ Calculate\ a\ String\ of\ every\ other\ character\ starting\ with\ the\ second\ character\ of\ the\ encrypted\ String.\r\n\r\n\ \ \ \ \ \ -\ Then\ calculate\ the\ key\ used\ to\ encrypt\ each\ half\ String.\r\n\r\n\ \ \ \ \ \ -\ You\ should\ print\ the\ two\ keys\ found.\r\n\r\n\ \ \ \ \ \ -\ Calculate\ and\ return\ the\ decrypted\ String\ using\ the\ encryptTwoKeys\ method\ from\ your\ CaesarCipher\ class,\ \r\n\ \ \ \ \ \ \ \ again\ making\ sure\ it\ is\ in\ the\ same\ folder\ as\ your\ CaesarBreaker\ class.\r\n
+comment9.params=
+comment9.target=void\ testdecryptTwoKeys()
+numComments=10

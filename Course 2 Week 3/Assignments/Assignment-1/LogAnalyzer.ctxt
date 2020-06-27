@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=LogAnalyzer
+comment0.text=In\ the\ LogAnalyzer\ class\ you\ will\ need\ to\ complete\ the\ constructor\ to\ initialize\ records\ to\ an\ empty\ ArrayList\ and\ complete\ the\ \r\n\ \ readFile\ method\ to\ create\ a\ FileResource\ and\ to\ iterate\ over\ all\ the\ lines\ in\ the\ file.\ For\ each\ line,\ create\ a\ LogEntry\ and\ store\r\nit\ in\ the\ records\ ArrayList.\ (Refer\ to\ the\ lecture\ on\ parsing\ log\ files\ for\ help.)
+comment1.params=
+comment1.target=LogAnalyzer()
+comment2.params=filename
+comment2.target=void\ readFile(java.lang.String)
+comment3.params=
+comment3.target=void\ printAll()
+comment4.params=
+comment4.target=int\ countUniqueIPs()
+comment5.params=num
+comment5.target=void\ printAllHigherThanNum(int)
+comment5.text=In\ the\ LogAnalyzer\ class,\ write\ the\ void\ method\ printAllHigherThanNum\ that\ has\ one\ integer\ parameter\ num.\ This\ method\ should\ \r\n\ \ \ \ \ \ \ examine\ all\ the\ web\ log\ entries\ in\ records\ and\ print\ those\ LogEntrys\ that\ have\ a\ status\ code\ greater\ than\ num.\ Be\ sure\ to\ add\ code\r\nin\ the\ Tester\ class\ to\ test\ out\ this\ method\ with\ the\ file\ short-test_log.
+comment6.params=someday
+comment6.target=java.util.ArrayList\ uniqueIPVisitsOnDay(java.lang.String)
+comment6.text=n\ the\ LogAnalyzer\ class,\ write\ the\ method\ uniqueIPVisitsOnDay\ that\ has\ one\ String\ parameter\ named\ someday\ in\ the\ format\ \u201CMMM\ DD\u201D\r\n\ \ \ \ \ \ \ where\ MMM\ is\ the\ first\ three\ characters\ of\ the\ month\ name\ with\ the\ first\ letter\ capitalized\ and\ the\ others\ in\ lowercase,\ and\ DD\r\n\ \ \ \ \ \ \ is\ the\ day\ in\ two\ digits\ (examples\ are\ \u201CDec\ 05\u201D\ and\ \u201CApr\ 22\u201D).\ This\ method\ accesses\ the\ web\ logs\ in\ records\ and\ returns\ an\r\n\ \ \ \ \ \ \ ArrayList\ of\ Strings\ of\ unique\ IP\ addresses\ that\ had\ access\ on\ the\ given\ day.\ (Note\ that\ the\ dates\ in\ LogEntrys\ are\ stored\r\n\ \ \ \ \ \ \ as\ a\ Date\ object,\ but\ using\ toString\ will\ allow\ you\ to\ access\ the\ characters\ in\ the\ Date.\ For\ example,\ consider\ that\ d\ is\ a\ Date.\r\n\ \ \ \ \ \ \ String\ str\ \=\ d.toString();\ allows\ you\ to\ now\ use\ a\ String\ representation\ of\ the\ date.)\ Be\ sure\ to\ test\ your\ program\ with\ code\ in\r\n\ \ \ \ \ \ \ the\ Tester\ class.\ Using\ the\ file\ weblog-short_log\ you\ should\ see\ that\ the\ call\ to\ uniqueIPVisitsOnDay(\u201CSep\ 14\u201D)\ returns\ an\r\nArrayList\ of\ 2\ items\ and\ uniqueIPVisitsOnDay(\u201CSep\ 30\u201D)\ returns\ an\ ArrayList\ of\ 3\ items.
+comment7.params=low\ high
+comment7.target=int\ countUniqueIPsInRange(int,\ int)
+comment7.text=In\ the\ LogAnalyzer\ class,\ write\ the\ method\ countUniqueIPsInRange\ that\ has\ two\ integer\ parameters\ named\ low\ and\ high.\ This\ method\r\n\ \ \ \ \ \ \ returns\ the\ number\ of\ unique\ IP\ addresses\ in\ records\ that\ have\ a\ status\ code\ in\ the\ range\ from\ low\ to\ high,\ inclusive.\ Be\ sure\ to\r\n\ \ \ \ \ \ \ test\ your\ program\ on\ several\ ranges.\ For\ example,\ using\ the\ file\ short-test_log,\ the\ call\ countUniqueIPsInRange(200,299)\ returns\r\n\ \ \ \ \ \ \ 4,\ as\ there\ are\ four\ unique\ IP\ addresses\ that\ have\ a\ status\ code\ from\ 200\ to\ 299.\ The\ call\ countUniqueIPsInRange(300,399)\ returns\r\n\ \ \ \ \ \ \ 2.\ In\ this\ case,\ note\ that\ there\ are\ three\ entries\ in\ the\ file\ that\ have\ a\ status\ code\ in\ the\ 300\ range,\ but\ two\ of\ them\ have\ the\r\nsame\ IP\ address.
+numComments=8

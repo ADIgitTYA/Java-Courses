@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CaesarCipherTwo
+comment0.text=\r\n\ Specifically,\ you\ should\ do\ the\ following.\r\n\r\nCreate\ the\ CaesarCipherTwo\ class\ with\ the\ following\ parts\:\r\n\r\nInclude\ private\ fields\ for\ the\ alphabet,\ shiftedAlphabet1,\ and\ shiftedAlphabet2.\r\nWrite\ a\ constructor\ CaesarCipherTwo\ that\ has\ two\ int\ parameters\ key1\ and\ key2.\ This\ method\ should\ initialize\ all\ the\ private\ fields.\r\nWrite\ an\ encrypt\ method\ that\ has\ one\ String\ parameter\ named\ input.\ This\ method\ returns\ a\ String\ that\ is\ the\ input\ encrypted\ using\ the\r\ntwo\ shifted\ alphabets.\r\nWrite\ a\ decrypt\ method\ that\ has\ one\ String\ parameter\ named\ input.\ This\ method\ returns\ a\ String\ that\ is\ the\ encrypted\ String\ decrypted\r\nusing\ the\ key1\ and\ key2\ associated\ with\ this\ CaesarCipherTwo\ object.\ You\ might\ want\ to\ add\ more\ private\ fields\ to\ the\ class.\r\n
+comment1.params=key1\ key2
+comment1.target=CaesarCipherTwo(int,\ int)
+comment2.params=input
+comment2.target=java.lang.String\ encrypt(java.lang.String)
+comment3.params=input
+comment3.target=java.lang.String\ decrypt(java.lang.String)
+numComments=4

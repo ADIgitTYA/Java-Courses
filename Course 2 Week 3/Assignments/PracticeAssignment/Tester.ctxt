@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Tester
+comment0.text=In\ the\ Tester\ class\ you\ will\ need\ to\ complete\ the\ testLogAnalyzer\ method,\ which\ creates\ a\ LogAnalyzer\ object,\ calls\ readFile\ on\r\nthe\ data\ file\ short-test_log,\ and\ then\ calls\ printAll\ to\ print\ all\ the\ web\ logs.
+comment1.params=
+comment1.target=void\ testLogEntry()
+comment2.params=
+comment2.target=void\ testLogAnalyzer()
+numComments=3

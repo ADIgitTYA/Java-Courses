@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LogAnalyzer
+comment0.text=In\ the\ LogAnalyzer\ class\ you\ will\ need\ to\ complete\ the\ constructor\ to\ initialize\ records\ to\ an\ empty\ ArrayList\ and\ complete\ the\ \r\n\ \ readFile\ method\ to\ create\ a\ FileResource\ and\ to\ iterate\ over\ all\ the\ lines\ in\ the\ file.\ For\ each\ line,\ create\ a\ LogEntry\ and\ store\r\nit\ in\ the\ records\ ArrayList.\ (Refer\ to\ the\ lecture\ on\ parsing\ log\ files\ for\ help.)
+comment1.params=
+comment1.target=LogAnalyzer()
+comment2.params=filename
+comment2.target=void\ readFile(java.lang.String)
+comment3.params=
+comment3.target=void\ printAll()
+comment4.params=
+comment4.target=int\ countUniqueIPs()
+numComments=5
